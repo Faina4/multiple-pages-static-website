@@ -1,6 +1,13 @@
 body{
     background-color: bisque;
 }
+.about-container{
+    background-color: cornflowerblue;
+    color: darkblue;
+    max-width: 900px;
+    display: block;
+    text-align: center;
+}
 h1{
     text-align: center;
     color: #015B42;
