@@ -1,14 +1,23 @@
 body{
-    background-color: rgb(231, 157, 67);
+    background-color: rgb(233, 201, 163);
+   
+        text-align: center;
+        margin: 55px 25px;
+        font-family: var(--font-family);
+      
 }
-.about-container{
-    background-color: cornflowerblue;
-    color: darkblue;
-    max-width: 900px;
-    display: block;
-    text-align: center;
+footer a{
+margin: 10px;
+color: #015B42;
 }
 h1{
     text-align: center;
     color: #015B42;
+}
+.croissant-pic{
+margin: 30px;
+padding: 10px;
+border: 1px;
+border-radius: 20px;
+box-shadow:  0 5px 10px rgba(0, 0, 0, 0.3);
 }
