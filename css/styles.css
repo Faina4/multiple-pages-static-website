@@ -1,18 +1,26 @@
 body{
-    background-color: rgb(233, 201, 163);
-   
+    background-color: rgb(244, 227, 145);
         text-align: center;
         margin: 55px 25px;
         font-family: var(--font-family);
+       
       
+}
+:root{
+    --font-family: Oleo Script Swash Caps, cursive;
+    --font-size: 25px;
+    --heading-font-size: 50px;
+    --footer-font-size: 19px;
 }
 footer a{
 margin: 10px;
 color: #015B42;
+font-size: var(--footer-font-size);
 }
 h1{
     text-align: center;
     color: #015B42;
+    font-size: var(--heading-font-size);
 }
 .croissant-pic{
 margin: 30px;
@@ -20,4 +28,7 @@ padding: 10px;
 border: 1px;
 border-radius: 20px;
 box-shadow:  0 5px 10px rgba(0, 0, 0, 0.3);
+}
+p{
+    font-size: var(--font-size); 
 }
