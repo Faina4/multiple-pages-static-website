@@ -1,7 +1,7 @@
 body{
     background-color: rgb(244, 227, 145);
         text-align: center;
-        margin: 55px 25px;
+        margin: 0 auto;
         font-family: var(--font-family);
        
       
@@ -11,6 +11,11 @@ body{
     --font-size: 25px;
     --heading-font-size: 50px;
     --footer-font-size: 19px;
+}
+.homepage-container{
+    display: block;
+    padding: 10px 45px;
+    text-align: center;
 }
 footer a{
 margin: 10px;
